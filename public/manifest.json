@@ -1,0 +1,70 @@
+{
+  "name": "SHARE最強営業ツール",
+  "short_name": "SHARE営業",
+  "description": "みんな営業頑張ろう！最高の案件と人材のマッチングプラットフォーム",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity"],
+  "lang": "ja",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "案件を探す",
+      "short_name": "案件検索",
+      "description": "新しい案件を探す",
+      "url": "/jobs",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    },
+    {
+      "name": "人材を探す",
+      "short_name": "人材検索", 
+      "description": "優秀な人材を探す",
+      "url": "/talents",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    },
+    {
+      "name": "マッチング",
+      "short_name": "マッチング",
+      "description": "マッチング一覧を確認",
+      "url": "/matches",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    },
+    {
+      "name": "メッセージ",
+      "short_name": "DM",
+      "description": "メッセージを確認",
+      "url": "/messages",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-mono-lightest text-mono-darkest;
+  }
+}
+
+@layer components {
+  .kontext-btn {
+    @apply bg-gradient-to-r from-kontext-blue to-kontext-blue-dark text-white font-medium py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 hover:from-kontext-blue-dark hover:to-kontext-blue;
+  }
+
+  .kontext-card {
+    @apply bg-white rounded-lg shadow-sm border border-mono-lighter p-6 hover:shadow-md transition-shadow duration-200;
+  }
+
+  .kontext-gradient-text {
+    @apply bg-gradient-to-r from-kontext-blue to-kontext-purple bg-clip-text text-transparent;
+  }
+}
